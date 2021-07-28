@@ -1,4 +1,4 @@
-package com.archi4zlo.newsapp
+package com.archi4zlo.newsapp.models
 
 data class NewsResponse(
     val articles: List<Article>,

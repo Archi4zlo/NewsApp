@@ -1,6 +1,16 @@
-package com.archi4zlo.newsapp
+package com.archi4zlo.newsapp.models
 
+import androidx.room.Entity
+import androidx.room.PrimaryKey
+
+
+@Entity(
+    tableName = "articles"
+)
 data class Article(
+    @PrimaryKey
+    var id: Int? = null,
+
     val author: String,
     val content: String,
     val description: String,
