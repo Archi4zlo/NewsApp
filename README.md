@@ -1,4 +1,5 @@
 # NewsApp
+(Kotlin)
 News App (MVVM, retrofit, Room, Glide, Navigation, Coroutines)
 
 
